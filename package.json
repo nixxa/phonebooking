@@ -1,0 +1,68 @@
+{
+    "name": "phonebooking",
+    "version": "1.0.0",
+    "description": "",
+    "main": "webpack.config.js",
+    "directories": {
+        "test": "tests"
+    },
+    "dependencies": {
+        "@material-ui/core": "^1.5.1",
+        "@material-ui/icons": "^1.1.1",
+        "babel-plugin-transform-runtime": "^6.23.0",
+        "npm": "^6.4.1",
+        "prop-types": "^15.6.2",
+        "react": "^16.5.2",
+        "react-dom": "^16.5.2",
+        "react-jss": "^8.6.1",
+        "react-popper": "^0.10.4",
+        "react-router": "^4.3.1",
+        "react-router-dom": "^4.3.1",
+        "react-text-mask": "^5.4.3",
+        "react-transition-group": "^2.5.0",
+        "theming": "^1.3.0"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-eslint": "^10.0.1",
+        "babel-loader": "^7.1.5",
+        "babel-plugin-syntax-async-functions": "^6.13.0",
+        "babel-plugin-transform-class-properties": "^6.24.1",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "babel-polyfill": "^6.26.0",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-react": "^6.24.1",
+        "babel-preset-stage-3": "^6.24.1",
+        "clean-webpack-plugin": "^0.1.19",
+        "css-loader": "^0.28.11",
+        "eslint": "^5.6.1",
+        "eslint-config-standard": "^12.0.0",
+        "eslint-plugin-import": "^2.14.0",
+        "eslint-plugin-node": "^7.0.1",
+        "eslint-plugin-promise": "^4.0.1",
+        "eslint-plugin-react": "^7.11.1",
+        "eslint-plugin-standard": "^4.0.0",
+        "file-loader": "^1.1.11",
+        "html-webpack-plugin": "^3.2.0",
+        "mini-css-extract-plugin": "^0.4.3",
+        "style-loader": "^0.21.0",
+        "webpack": "^4.20.2",
+        "webpack-cli": "^3.1.2",
+        "webpack-dev-server": "^3.1.9",
+        "webpack-manifest-plugin": "^2.0.4",
+        "webpack-merge": "^4.1.4"
+    },
+    "scripts": {
+        "build": "webpack --config webpack.prod.js",
+        "build-dev": "webpack --config webpack.dev.js",
+        "dev": "webpack-dev-server --config webpack.dev.js",
+        "all": "webpack-dev-server --config webpack.all.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nixxa/phonebooking.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "homepage": "https://github.com/nixxa/phonebooking#readme"
+}
